@@ -1,0 +1,85 @@
+/*Paars #5722CD;
+Blauw #4845E4;
+Roze #ED4385;
+Zwart #0C0C0C (voor standaard tekst);
+Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services") Uitzonderingen:
+Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)
+Grijs #7A7A7A (voor de service-tegel tekst);*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Merriweather, "Times New Roman";
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Roboto', sans-serif, Arial;
+    font-weight: 400;
+}
+
+.header-top {
+    background-color: #5722CD;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.nav-items {
+    display: flex;
+    flex-basis: 400px;
+    justify-content: space-between;
+    padding-right: 40px;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*width: 800px;*/
+    /*padding: 60px;*/
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*Padding even als shorthand zetten!*/
+    padding-bottom: 20px;
+    padding-top: 15px;
+    font-size: 34px;
+    text-align: center;
+    width: 50%;
+    color: #FFFFFF;
+
+}
+
+.sub-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif, Arial;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
