@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c8a63d-13e9-4fd5-b542-4846b507a751" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Rekupe/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rekupe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Rekupe/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rekupe/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Rekupe/styles.css" afterDir="false" />
     </list>
@@ -31,6 +31,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/_NOVI/Concept_Opdracht&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;web-ide.project.structure&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -52,6 +53,13 @@
       <workItem from="1663232392186" duration="14000" />
       <workItem from="1663234986507" duration="4158000" />
       <workItem from="1663497051061" duration="95000" />
+      <workItem from="1663580744735" duration="2188000" />
+      <workItem from="1663582982520" duration="2902000" />
+      <workItem from="1663670135435" duration="3148000" />
+      <workItem from="1663746843313" duration="3754000" />
+      <workItem from="1663750658314" duration="1579000" />
+      <workItem from="1664022220677" duration="10510000" />
+      <workItem from="1664099474397" duration="1694000" />
     </task>
     <servers />
   </component>
