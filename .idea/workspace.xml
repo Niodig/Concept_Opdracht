@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f5c8a63d-13e9-4fd5-b542-4846b507a751" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rekupe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Rekupe/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rekupe/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Rekupe/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -63,7 +67,7 @@
       <workItem from="1664184423895" duration="4000" />
       <workItem from="1664354575379" duration="2112000" />
       <workItem from="1664356710653" duration="1914000" />
-      <workItem from="1664442787154" duration="960000" />
+      <workItem from="1664442787154" duration="2354000" />
     </task>
     <servers />
   </component>
