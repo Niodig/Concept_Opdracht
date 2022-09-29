@@ -114,7 +114,6 @@ button {
 button a {
     text-decoration: none;
     color: #FFFFFF;
-
 }
 
 .squiggle-line {
@@ -336,7 +335,13 @@ button a {
     padding: 20px 20px 20px 20px;
 }
 
+.footer {
+    color: #0C0C0C;
+}
+
 
 
 /*Media querie toepassen op article container en width op images*/
+
+/*footer nog maken*/
 
