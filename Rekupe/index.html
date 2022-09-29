@@ -9,15 +9,15 @@
     <header class="header-top">
         <nav class="navbar-container">
             <ul class="nav-items">
-                <li>Case Studies</li>
-                <li>Services</li>
-                <li>Contact Us</li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
         </nav>
         <div class="title">
             <h1 class="main-title">Your website is an investment in the success of your business.</h1>
             <h3 class="sub-3">We are here to help you succeed.</h3>
-            <button>Let's work together</button>
+            <button><a href="form">Let's work together</a></button>
         </div>
         <img class="squiggle-line" src="./assets/squiggle_line_stripe.svg" alt="squiggle-line">
     </header>
@@ -95,11 +95,19 @@
                 </article>
             </div>
         </section>
-        <section>
-            <div>
-                <h2></h2>
-                <p></p>
-                <form action=""></form>
+        <section class="form-container">
+            <div class="form-inner-container">
+                <h2 id="form">Let's work together</h2>
+                <p>Have a question? Need a quote? Let us know!</p>
+                <form class="form" onsubmit="javascript">
+                    <label for="full-name-field">Name</label>
+                    <input type="text" id="full-name-field" name="fullname" placeholder="Name"/>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Email"/>
+                    <label for="message">Message</label>
+                    <input type="text" id="message" name="message" placeholder="Message"/>
+                    <button>Send</button>
+                </form>
             </div>
         </section>
     </main>

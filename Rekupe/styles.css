@@ -14,7 +14,7 @@ Grijs #7A7A7A (voor de service-tegel tekst);*/
 }
 
 h1 {
-    font-family: Merriweather, "Times New Roman";
+    font-family: Merriweather, "Times New Roman", Serif;
     font-weight: 700;
 }
 
@@ -48,6 +48,13 @@ p {
     color: #FFFFFF;
 }
 
+.nav-items a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
 .title {
     display: flex;
     flex-direction: column;
@@ -71,7 +78,7 @@ p {
     font-size: 44px;
     text-align: center;
     color: #FFFFFF;
-    width: 900px;
+    max-width: 900px;
 }
 
 .sub-3 {
@@ -102,6 +109,12 @@ button {
     color: #FFFFFF;
     margin-bottom: 150px;
     box-shadow: rgba(0, 0, 0, 0.19) 0 10px 20px, rgba(0, 0, 0, 0.23) 0 6px 6px;
+}
+
+button a {
+    text-decoration: none;
+    color: #FFFFFF;
+
 }
 
 .squiggle-line {
@@ -136,7 +149,7 @@ button {
     justify-content: center;
     align-items: center;
     color: #5722CD;
-    font-family: Merriweather, "Times New Roman";
+    font-family: Merriweather, "Times New Roman", Serif;
     font-weight: 700;
     font-size: 23px;
     padding: 16px;
@@ -159,8 +172,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    background-color: #F3F6F9;
+   background-color: #F3F6F9;
 }
 
 
@@ -243,7 +255,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 100px 0 120px 0;
+    margin: 100px 0 100px 0;
 }
 
 .inner-container-labels {
@@ -262,7 +274,7 @@ button {
     width: 300px;
     padding: 50px 60px 50px 60px;
     border: 1px solid #5722CD;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
 }
 
 .icons {
@@ -276,4 +288,55 @@ button {
     color: #5722CD;
 }
 
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #5722CD;
+
+}
+
+.form-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    padding: 50px 0 100px 0;
+}
+
+.form-inner-container h2 {
+    font-family: Merriweather, "Times New Roman", Serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+
+.form-inner-container p {
+    font-family: 'Roboto', sans-serif, Arial;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+}
+
+.form button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form label input {
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+/*Media querie toepassen op article container en width op images*/
 
